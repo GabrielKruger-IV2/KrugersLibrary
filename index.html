@@ -1,0 +1,47 @@
+<!-- Criar uma aplicação que vai permitir aos usuários pesquisar por livros por meio de um mecanismo de consulta (por título, autor, nome, etc). Apresente os livros encontrados em uma interface intuitiva, contendo todos os dados relevantes retornados na API.
+O usuário deverá enxergar um ou mais campos de texto para buscar os livros de forma parametrizada (por título, autor, nome, etc);
+O usuário deverá submeter a pesquisa. Essa ação deverá resultar na consulta de uma API que retorna uma array com os livros que correspondem aos parâmetros de pesquisa informados pelo usuário.
+O usuário então poderá visualizar os livros encontrados e outras informações relevantes sobre eles na página.
+O usuário poderá, para cada livro retornado, clicar um link para obter mais informações deste livro (dê uma boa lida nas propriedades retornadas na API);
+O usuário poderá utilizar o aplicativo tanto em dispositivos do tipo desktop, quando dispositivos móveis. Utilize design responsivo.
+O usuário deverá visualizar uma animação de carregamento enquanto aguarda a pesquisa pelos livros.
+Dicas
+Utilize a API do Google Books para este projeto. Crie uma conta no google e acesse o link da documentação para saber mais. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <header class="cabecalho">
+        <h2 >Krüger's Library</h2>
+    </header>
+    <section>
+        <div id="divPesquisa">
+            <div>
+                <h3>Faça sua pesquisa</h3>
+            </div>
+            <div>
+                <label for="tituloI">Titulo</label>
+                <input type="text" name="tituloI" id="tituloI">
+            </div>
+            <div>
+                <label for="autorI">Autor</label>
+                <input type="text" name="autorI" id="autorI">
+            </div>
+           
+        </div>
+    </section>
+    <section  id="livros">
+
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+    
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(66, 66, 66);
+}
+
+.cabecalho {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#divPesquisa {
+    text-align: center;
+    margin-top: 3vh;
+    background-color: grey;
+    width: 70vw;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#tituloI {
+    width: 20vw;
+
+}
+
+#autorI {
+    width: 20vw;
+    margin-top: 1vh;
+}
+
+.livro {
+    background-color: grey;
+    margin-top: 2vh;
+    border: 1px solid #000000;
+    text-align: center;
+    width: 70vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.linkLivro {
+    text-decoration: none;
+    color: rgb(0, 255, 13);
+}
+
+.carregando {
+    background-color: black;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.tituloCarregando {
+    color: red;
+}
